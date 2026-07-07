@@ -3,7 +3,7 @@ const Category = require("../models/Category");
 
 const {
   getBudgetProgress,
-} = require("../services/budgetService");
+} = require("../services/BudgetService");
 
 
 const createBudget = async (req, res) => {
