@@ -1,0 +1,37 @@
+.table{
+
+width:100%;
+
+margin-top:20px;
+
+border-collapse:collapse;
+
+background:white;
+
+}
+
+.table th{
+
+background:#2563EB;
+
+color:white;
+
+padding:14px;
+
+}
+
+.table td{
+
+padding:12px;
+
+border-bottom:1px solid #ddd;
+
+text-align:center;
+
+}
+
+.table tr:hover{
+
+background:#F8FAFC;
+
+}

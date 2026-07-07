@@ -1,0 +1,32 @@
+.layout-body{
+    display:flex;
+}
+
+/* Sidebar */
+
+.sidebar{
+    width:250px;
+    min-height:calc(100vh - 70px);
+    background:#F8FAFC;      /* Light white shade */
+    display:flex;
+    flex-direction:column;
+    border-right:1px solid #E2E8F0;
+}
+
+.sidebar a{
+    color:#1E293B;
+    text-decoration:none;
+    padding:16px 22px;
+    border-bottom:1px solid #E2E8F0;
+    transition:0.3s;
+    font-weight:500;
+}
+
+.sidebar a:hover{
+    background:#E2E8F0;
+}
+
+.sidebar .active{
+    background:#2563EB;
+    color:white;
+}

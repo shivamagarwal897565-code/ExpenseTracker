@@ -1,0 +1,45 @@
+.navbar{
+    height:70px;
+    background:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 30px;
+    border-bottom:1px solid #E5E7EB;
+}
+
+.logo{
+    font-size:34px;
+    font-weight:700;
+    color:#0F172A;
+}
+
+.navbar-right{
+    display:flex;
+    align-items:center;
+    margin-top:12px;      /* Space above Welcome */
+}
+
+.welcome{
+    font-size:18px;
+    font-weight:500;
+    margin-right:30px;    /* More space before Logout */
+    color:#374151;
+}
+
+.logout-btn{
+    background:#DC2626;
+    color:white;
+    border:none;
+    padding:10px 22px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:15px;
+    font-weight:600;
+    margin-left:20px;     /* Shift Logout further right */
+    transition:0.3s;
+}
+
+.logout-btn:hover{
+    background:#B91C1C;
+}

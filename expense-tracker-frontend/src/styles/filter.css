@@ -1,0 +1,30 @@
+.filter-card{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+
+gap:15px;
+
+background:white;
+
+padding:20px;
+
+margin-bottom:20px;
+
+border-radius:10px;
+
+box-shadow:0 0 8px rgba(0,0,0,.08);
+
+}
+
+.filter-card input,
+.filter-card select{
+
+padding:10px;
+
+border:1px solid #ccc;
+
+border-radius:6px;
+
+}
